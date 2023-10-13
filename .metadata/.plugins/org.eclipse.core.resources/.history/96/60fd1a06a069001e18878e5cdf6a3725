@@ -1,0 +1,3 @@
+use lol;
+
+insert into member values ('JUGKING','1234','challenger',60.0,1736,327),('BRO Hena','1235','challenger',56.0,1681,545),('Hide on bush','0000','challenger',55.0,996,411);

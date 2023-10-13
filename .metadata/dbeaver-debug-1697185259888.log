@@ -1,50 +1,86 @@
-!SESSION 2023-10-13 11:20:56.254 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=17.0.6
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -eclipse.keyring C:\Users\jaeyun\AppData\Roaming\DBeaverData\secure\secure_storage
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\sql_workspace
-
-!ENTRY org.eclipse.ui 2 2 2023-10-13 11:21:02.478
-!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
-
-!ENTRY org.eclipse.jface 2 0 2023-10-13 11:21:55.748
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-13 11:21:55.748
-!MESSAGE A conflict occurred for CTRL+J:
-Binding(CTRL+J,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.findIncremental,Ï¶ùÎ∂Ñ Ï∞æÍ∏∞,
-		Ï¶ùÎ∂ÑÏùÑ Ï∞æÏäµÎãàÎã§.,
-		Category(org.eclipse.ui.category.edit,Ìé∏Ïßë,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findIncremental"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.textEditorScope,,,system)
-Binding(CTRL+J,
-	ParameterizedCommand(Command(org.jkiss.dbeaver.core.resultset.grid.gotoColumn,Go To Column,
-		Jump to a specified column,
-		Category(org.jkiss.dbeaver.core.rs,Result Set,Result Set Commands,true),
-		WorkbenchHandlerServiceHandler("org.jkiss.dbeaver.core.resultset.grid.gotoColumn"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.jkiss.dbeaver.ui.context.resultset,,,system)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 11:29:15.007
-!MESSAGE SQL Error [1136] [21S01]: Column count doesn't match value count at row 1
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 11:29:15.007
-!MESSAGE Column count doesn't match value count at row 1
-!STACK 0
-java.sql.SQLException: Column count doesn't match value count at row 1
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+2023-10-13 13:55:28.405 - DBeaver 23.2.2.202310081633 is starting
+2023-10-13 13:55:28.406 - OS: Windows 11 10.0 (amd64)
+2023-10-13 13:55:28.407 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2023-10-13 13:55:28.407 - Install path: 'C:\Program Files\DBeaver'
+2023-10-13 13:55:28.407 - Instance path: 'file:/E:/sql_workspace/'
+2023-10-13 13:55:28.408 - Memory available 64Mb/1024Mb
+2023-10-13 13:55:28.419 - Create display
+2023-10-13 13:55:28.528 - Initializing DBeaver 23.2.2
+2023-10-13 13:55:28.529 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 23.2.2.202310081633
+2023-10-13 13:55:28.529 - Initialize desktop platform...
+2023-10-13 13:55:28.710 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.0.v20230425-0513]
+> Start Core Resource Management [org.eclipse.core.resources 3.19.0.v20230510-1240]
+> Start ∆¿ ¡ˆø¯ «ŸΩ… [org.eclipse.team.core 3.10.0.v20230317-0901]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.116.202310081633]
+2023-10-13 13:55:28.973 - Initialize base platform...
+2023-10-13 13:55:28.998 - Platform initialized (468ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.116.202310081633]
+2023-10-13 13:55:29.056 - Starting instance server at http://localhost:64244
+2023-10-13 13:55:29.063 - Run workbench
+> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.131.202310081633]
+> Start Eclipse e4 ¿€æ˜øµø™ SWT [org.eclipse.e4.ui.workbench.swt 0.17.0.v20230501-1823]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.0.v20230429-1914]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.0.v20230501-1823]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.0.v20230501-1823]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.0.v20230501-1823]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.0.v20230501-1823]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.18.0.v20230211-1150]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.0.v20230501-1533]
+> Start Eclipse e4 ¿€æ˜øµø™ ±‚¥… √ﬂ∞° [org.eclipse.e4.ui.workbench.addons.swt 1.5.0.v20230501-1823]
+> Start Eclipse e4 ¿€æ˜øµø™ SWT ∑ª¥ı∑Ø [org.eclipse.e4.ui.workbench.renderers.swt 0.16.0.v20230525-0648]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.0.v20230429-1914]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.0.v20230317-0802]
+Warning: NLS unused message: BlockedJobsDialog_UserInterfaceTreeElement in: org.eclipse.ui.internal.progress.messages
+2023-10-13 13:55:31.158 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.106.202310081633]
+2023-10-13 13:55:31.391 - Total database drivers: 108 (108)
+> Start µµøÚ∏ª Ω√Ω∫≈€ ƒ⁄æÓ [org.eclipse.help 3.10.0.v20230317-0802]
+2023-10-13 13:55:31.473 - Create actions
+2023-10-13 13:55:31.479 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2023-10-13 13:55:31.479 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2023-10-13 13:55:31.480 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2023-10-13 13:55:32.026 - Initialize workbench window
+2023-10-13 13:55:32.035 - Finish initialization
+> Start ±‚∫ª πÆº≠ ∆Ì¡˝±‚ [org.eclipse.ui.editors 3.16.0.v20230329-1609]
+> Start ≈ÿΩ∫∆Æ ∆Ì¡˝±‚ «¡∑π¿”øˆ≈© [org.eclipse.ui.workbench.texteditor 3.17.0.v20230316-1200]
+Warning: NLS missing message: pref_page_content_editor_group_representation_content in: org.jkiss.dbeaver.ui.controls.resultset.internal.ResultSetMessages
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.116.202310081633]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.116.202310081633]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.92.202310081633]
+> Start «ŸΩ… ∫Ò±≥ ¡ˆø¯ [org.eclipse.compare.core 3.8.0.v20230517-1315]
+> Start jna [com.sun.jna 5.13.0]
+> Start ¿Œ≈Õ≥› ø¨∞· ∞¸∏Æ ªÁøÎ¿⁄ ¿Œ≈Õ∆‰¿ÃΩ∫ [org.eclipse.ui.net 1.5.0.v20230317-0901]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.0.v20230317-0901]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.153.202310081633]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.122.202310081633]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.13.0.202306071707]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.14.0.202306071707]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.76.202310081633]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.76.202310081633]
+> Start ƒ‹º÷ [org.eclipse.ui.console 3.12.0.v20230317-0802]
+Warning: NLS unused message: InputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+Warning: NLS unused message: OutputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+> Start µπˆ±◊ «ŸΩ… [org.eclipse.debug.core 3.21.0.v20230508-1538]
+2023-10-13 13:55:35.201 - Connect with 'localhost' (mysql8-18b26d66b37-49f851385ee7b8c6)
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.9.202310081633]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.201.202310081633]
+2023-10-13 13:55:35.245 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.140.202310081633]
+2023-10-13 13:55:35.484 - Execution context opened (localhost; Metadata; 1)
+2023-10-13 13:55:35.668 - Connected (mysql8-18b26d66b37-49f851385ee7b8c6, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+2023-10-13 13:55:35.897 - Execution context opened (localhost; SQLEditor <Script.sql>; 2)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.94.202310081633]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.108.202310081633]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.94.202310081633]
+2023-10-13 13:56:04.554 - SQL Error [1049] [42000]: Unknown database 'leagueoflengeds'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1049] [42000]: Unknown database 'leagueoflengeds'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
 	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
@@ -53,22 +89,37 @@ java.sql.SQLException: Column count doesn't match value count at row 1
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 11:29:15.789
-!MESSAGE SQL Error [1136] [21S01]: Column count doesn't match value count at row 1
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 11:29:15.789
-!MESSAGE Column count doesn't match value count at row 1
-!STACK 0
-java.sql.SQLException: Column count doesn't match value count at row 1
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'leagueoflengeds'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
 	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2023-10-13 13:59:39.023 - Execution context opened (localhost; SQLEditor <Script-1.sql>; 3)
+2023-10-13 14:05:14.071 - Execution context closed (localhost, 2)
+2023-10-13 14:05:15.226 - Node 'LeagueOfLegends' not found in parent node 'database://mysql8-18b26d66b37-49f851385ee7b8c6/org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog'.
+Allowed children: [shop [localhost], shop2 [localhost], sys [localhost], lol [localhost]]
+2023-10-13 14:05:15.227 - Node 'org.jkiss.dbeaver.ext.mysql.model.MySQLTable' not found in parent node 'database://mysql8-18b26d66b37-49f851385ee7b8c6/org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog'.
+Allowed children: [shop [localhost], shop2 [localhost], sys [localhost], lol [localhost]]
+2023-10-13 14:05:15.227 - Node 'member' not found in parent node 'database://mysql8-18b26d66b37-49f851385ee7b8c6/org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog'.
+Allowed children: [shop [localhost], shop2 [localhost], sys [localhost], lol [localhost]]
+2023-10-13 14:05:15.227 - Node 'org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog' not found in parent node 'database://mysql8-18b26d66b37-49f851385ee7b8c6'.
+Allowed children: [Databases, Users, Administer, System Info]
+2023-10-13 14:05:15.227 - Node 'LeagueOfLegends' not found in parent node 'database://mysql8-18b26d66b37-49f851385ee7b8c6'.
+Allowed children: [Databases, Users, Administer, System Info]
+2023-10-13 14:05:15.227 - Node 'org.jkiss.dbeaver.ext.mysql.model.MySQLTable' not found in parent node 'database://mysql8-18b26d66b37-49f851385ee7b8c6'.
+Allowed children: [Databases, Users, Administer, System Info]
+2023-10-13 14:05:15.227 - Node 'member' not found in parent node 'database://mysql8-18b26d66b37-49f851385ee7b8c6'.
+Allowed children: [Databases, Users, Administer, System Info]
+2023-10-13 14:12:58.714 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'valus ('JUGKING','2023-10-12','VI','8/1/7',79.0,),('JUGKING','2023-10-2','Nidale' at line 1
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'valus ('JUGKING','2023-10-12','VI','8/1/7',79.0,),('JUGKING','2023-10-2','Nidale' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
 	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
@@ -77,82 +128,19 @@ java.sql.SQLException: Column count doesn't match value count at row 1
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 11:29:16.956
-!MESSAGE SQL Error [1136] [21S01]: Column count doesn't match value count at row 1
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 11:29:16.956
-!MESSAGE Column count doesn't match value count at row 1
-!STACK 0
-java.sql.SQLException: Column count doesn't match value count at row 1
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'valus ('JUGKING','2023-10-12','VI','8/1/7',79.0,),('JUGKING','2023-10-2','Nidale' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
 	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 11:29:17.882
-!MESSAGE SQL Error [1136] [21S01]: Column count doesn't match value count at row 1
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 11:29:17.882
-!MESSAGE Column count doesn't match value count at row 1
-!STACK 0
-java.sql.SQLException: Column count doesn't match value count at row 1
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 11:29:35.791
-!MESSAGE Error resolving object
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 11:29:35.792
-!MESSAGE Table 'product3' not found in catalog 'shop2'
-!STACK 0
-org.jkiss.dbeaver.DBException: Table 'product3' not found in catalog 'shop2'
-	at org.jkiss.dbeaver.ext.mysql.model.MySQLStructureAssistant$1.resolveObject(MySQLStructureAssistant.java:141)
-	at org.jkiss.dbeaver.ui.editors.sql.dialogs.SuggestionInformationControl$1.run(SuggestionInformationControl.java:130)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 11:37:02.084
-!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+	... 12 more
+2023-10-13 14:13:05.539 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
 
 Error position:
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 11:37:02.084
-!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
-!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2023-10-13 11:37:02.084
-!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
-!STACK 0
-java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
 	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
@@ -165,19 +153,17 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 13:54:49.810
-!MESSAGE SQL Error [1049] [42000]: Unknown database 'leagueoflengeds'
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 13:54:49.810
-!MESSAGE Unknown database 'leagueoflengeds'
-!STACK 0
-java.sql.SQLSyntaxErrorException: Unknown database 'leagueoflengeds'
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
 	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2023-10-13 14:13:52.841 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
 	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
 	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
@@ -190,145 +176,16 @@ java.sql.SQLSyntaxErrorException: Unknown database 'leagueoflengeds'
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-!SESSION 2023-10-13 13:55:26.404 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=17.0.6
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -eclipse.keyring C:\Users\jaeyun\AppData\Roaming\DBeaverData\secure\secure_storage
-Command-line arguments:  -os win32 -ws win32 -arch x86_64
-
-!ENTRY org.eclipse.ui 2 2 2023-10-13 13:55:33.769
-!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
-
-!ENTRY org.eclipse.jface 2 0 2023-10-13 13:55:35.776
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-13 13:55:35.776
-!MESSAGE A conflict occurred for CTRL+J:
-Binding(CTRL+J,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.findIncremental,Ï¶ùÎ∂Ñ Ï∞æÍ∏∞,
-		Ï¶ùÎ∂ÑÏùÑ Ï∞æÏäµÎãàÎã§.,
-		Category(org.eclipse.ui.category.edit,Ìé∏Ïßë,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findIncremental"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.textEditorScope,,,system)
-Binding(CTRL+J,
-	ParameterizedCommand(Command(org.jkiss.dbeaver.core.resultset.grid.gotoColumn,Go To Column,
-		Jump to a specified column,
-		Category(org.jkiss.dbeaver.core.rs,Result Set,Result Set Commands,true),
-		WorkbenchHandlerServiceHandler("org.jkiss.dbeaver.core.resultset.grid.gotoColumn"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.jkiss.dbeaver.ui.context.resultset,,,system)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 13:56:04.557
-!MESSAGE SQL Error [1049] [42000]: Unknown database 'leagueoflengeds'
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 13:56:04.557
-!MESSAGE Unknown database 'leagueoflengeds'
-!STACK 0
-java.sql.SQLSyntaxErrorException: Unknown database 'leagueoflengeds'
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
 	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
 	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 14:12:58.715
-!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'valus ('JUGKING','2023-10-12','VI','8/1/7',79.0,),('JUGKING','2023-10-2','Nidale' at line 1
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 14:12:58.716
-!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'valus ('JUGKING','2023-10-12','VI','8/1/7',79.0,),('JUGKING','2023-10-2','Nidale' at line 1
-!STACK 0
-java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'valus ('JUGKING','2023-10-12','VI','8/1/7',79.0,),('JUGKING','2023-10-2','Nidale' at line 1
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 14:13:05.541
-!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
-
-Error position:
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 14:13:05.541
-!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
-!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2023-10-13 14:13:05.541
-!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
-!STACK 0
-java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 14:13:52.843
-!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 14:13:52.843
-!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
-!STACK 0
-java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI',' at line 1
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 15:35:38.958
-!MESSAGE Duplicate entry 'apple' for key 'member.PRIMARY'
-!STACK 0
+	... 12 more
+> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
+2023-10-13 15:35:38.953 - Duplicate entry 'apple' for key 'member.PRIMARY'
 java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'apple' for key 'member.PRIMARY'
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
@@ -418,10 +275,7 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'apple' for k
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 15:37:19.383
-!MESSAGE Field 'id' doesn't have a default value
-!STACK 0
+2023-10-13 15:37:19.380 - Field 'id' doesn't have a default value
 java.sql.SQLException: Field 'id' doesn't have a default value
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
@@ -511,10 +365,7 @@ java.sql.SQLException: Field 'id' doesn't have a default value
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 15:37:57.763
-!MESSAGE Column 'id' cannot be null
-!STACK 0
+2023-10-13 15:37:57.759 - Column 'id' cannot be null
 java.sql.SQLIntegrityConstraintViolationException: Column 'id' cannot be null
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
@@ -604,10 +455,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'id' cannot be null
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 16:10:56.034
-!MESSAGE Cannot add or update a child row: a foreign key constraint fails (`shop`.`bbs`, CONSTRAINT `bbs_FK` FOREIGN KEY (`writer`) REFERENCES `member` (`id`))
-!STACK 0
+2023-10-13 16:10:56.031 - Cannot add or update a child row: a foreign key constraint fails (`shop`.`bbs`, CONSTRAINT `bbs_FK` FOREIGN KEY (`writer`) REFERENCES `member` (`id`))
 java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`shop`.`bbs`, CONSTRAINT `bbs_FK` FOREIGN KEY (`writer`) REFERENCES `member` (`id`))
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
@@ -697,10 +545,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-10-13 16:22:17.735
-!MESSAGE Unhandled event loop exception
-!STACK 0
+2023-10-13 16:22:17.736 - Event loop exception
 java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
 	at org.jkiss.dbeaver.erd.model.ERDUtils.getAttributeByModel(ERDUtils.java:109)
 	at org.jkiss.dbeaver.erd.model.ERDAssociation.resolveAttributes(ERDAssociation.java:104)
@@ -731,46 +576,7 @@ java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEn
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 16:22:17.736
-!MESSAGE Event loop exception
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 16:22:17.736
-!MESSAGE Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
-!STACK 0
-java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
-	at org.jkiss.dbeaver.erd.model.ERDUtils.getAttributeByModel(ERDUtils.java:109)
-	at org.jkiss.dbeaver.erd.model.ERDAssociation.resolveAttributes(ERDAssociation.java:104)
-	at org.jkiss.dbeaver.erd.model.ERDAssociation.<init>(ERDAssociation.java:84)
-	at org.jkiss.dbeaver.erd.ui.editor.ERDGraphicalViewer.lambda$1(ERDGraphicalViewer.java:402)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:280)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-10-13 16:24:44.504
-!MESSAGE Unhandled event loop exception
-!STACK 0
+2023-10-13 16:24:44.505 - Event loop exception
 java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
 	at org.jkiss.dbeaver.erd.model.ERDUtils.getAttributeByModel(ERDUtils.java:109)
 	at org.jkiss.dbeaver.erd.model.ERDAssociation.resolveAttributes(ERDAssociation.java:104)
@@ -848,12 +654,7 @@ java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEn
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 16:24:44.506
-!MESSAGE Event loop exception
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 16:24:44.506
-!MESSAGE Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
-!STACK 0
+2023-10-13 16:25:36.870 - Event loop exception
 java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
 	at org.jkiss.dbeaver.erd.model.ERDUtils.getAttributeByModel(ERDUtils.java:109)
 	at org.jkiss.dbeaver.erd.model.ERDAssociation.resolveAttributes(ERDAssociation.java:104)
@@ -931,174 +732,7 @@ java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEn
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-10-13 16:25:36.870
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
-	at org.jkiss.dbeaver.erd.model.ERDUtils.getAttributeByModel(ERDUtils.java:109)
-	at org.jkiss.dbeaver.erd.model.ERDAssociation.resolveAttributes(ERDAssociation.java:104)
-	at org.jkiss.dbeaver.erd.model.ERDAssociation.<init>(ERDAssociation.java:84)
-	at org.jkiss.dbeaver.erd.ui.editor.ERDGraphicalViewer.lambda$1(ERDGraphicalViewer.java:402)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2346)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
-	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2344)
-	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.run(RunnableContextDelegate.java:39)
-	at org.jkiss.dbeaver.ui.UIUtils.runInProgressService(UIUtils.java:1798)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateBase.createDatabaseObject(NavigatorHandlerObjectCreateBase.java:186)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateBase.createNewObject(NavigatorHandlerObjectCreateBase.java:167)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateNew.execute(NavigatorHandlerObjectCreateNew.java:134)
-	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor78.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
-	at org.jkiss.dbeaver.ui.ActionUtils.runCommand(ActionUtils.java:374)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateNew.execute(NavigatorHandlerObjectCreateNew.java:126)
-	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor78.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:280)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 16:25:36.871
-!MESSAGE Event loop exception
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 16:25:36.871
-!MESSAGE Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
-!STACK 0
-java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
-	at org.jkiss.dbeaver.erd.model.ERDUtils.getAttributeByModel(ERDUtils.java:109)
-	at org.jkiss.dbeaver.erd.model.ERDAssociation.resolveAttributes(ERDAssociation.java:104)
-	at org.jkiss.dbeaver.erd.model.ERDAssociation.<init>(ERDAssociation.java:84)
-	at org.jkiss.dbeaver.erd.ui.editor.ERDGraphicalViewer.lambda$1(ERDGraphicalViewer.java:402)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2346)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
-	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2344)
-	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.run(RunnableContextDelegate.java:39)
-	at org.jkiss.dbeaver.ui.UIUtils.runInProgressService(UIUtils.java:1798)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateBase.createDatabaseObject(NavigatorHandlerObjectCreateBase.java:186)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateBase.createNewObject(NavigatorHandlerObjectCreateBase.java:167)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateNew.execute(NavigatorHandlerObjectCreateNew.java:134)
-	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor78.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
-	at org.jkiss.dbeaver.ui.ActionUtils.runCommand(ActionUtils.java:374)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateNew.execute(NavigatorHandlerObjectCreateNew.java:126)
-	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor78.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:280)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-10-13 16:25:45.486
-!MESSAGE Unhandled event loop exception
-!STACK 0
+2023-10-13 16:25:45.487 - Event loop exception
 java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
 	at org.jkiss.dbeaver.erd.model.ERDUtils.getAttributeByModel(ERDUtils.java:109)
 	at org.jkiss.dbeaver.erd.model.ERDAssociation.resolveAttributes(ERDAssociation.java:104)
@@ -1129,46 +763,7 @@ java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEn
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 16:25:45.488
-!MESSAGE Event loop exception
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 16:25:45.488
-!MESSAGE Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
-!STACK 0
-java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
-	at org.jkiss.dbeaver.erd.model.ERDUtils.getAttributeByModel(ERDUtils.java:109)
-	at org.jkiss.dbeaver.erd.model.ERDAssociation.resolveAttributes(ERDAssociation.java:104)
-	at org.jkiss.dbeaver.erd.model.ERDAssociation.<init>(ERDAssociation.java:84)
-	at org.jkiss.dbeaver.erd.ui.editor.ERDGraphicalViewer.lambda$1(ERDGraphicalViewer.java:402)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:280)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 16:25:48.228
-!MESSAGE Duplicate key name 'reply_FK'
-!STACK 0
+2023-10-13 16:25:48.228 - Duplicate key name 'reply_FK'
 java.sql.SQLSyntaxErrorException: Duplicate key name 'reply_FK'
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
@@ -1186,10 +781,7 @@ java.sql.SQLSyntaxErrorException: Duplicate key name 'reply_FK'
 	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor$SaveJob.run(EntityEditor.java:1253)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 16:26:15.855
-!MESSAGE Duplicate key name 'reply_FK'
-!STACK 0
+2023-10-13 16:26:15.854 - Duplicate key name 'reply_FK'
 java.sql.SQLSyntaxErrorException: Duplicate key name 'reply_FK'
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
@@ -1207,10 +799,7 @@ java.sql.SQLSyntaxErrorException: Duplicate key name 'reply_FK'
 	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor$SaveJob.run(EntityEditor.java:1253)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui 4 0 2023-10-13 16:26:41.734
-!MESSAGE Unhandled event loop exception
-!STACK 0
+2023-10-13 16:26:41.734 - Event loop exception
 java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
 	at org.jkiss.dbeaver.erd.model.ERDUtils.getAttributeByModel(ERDUtils.java:109)
 	at org.jkiss.dbeaver.erd.model.ERDAssociation.resolveAttributes(ERDAssociation.java:104)
@@ -1288,93 +877,7 @@ java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEn
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 16:26:41.736
-!MESSAGE Event loop exception
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 16:26:41.736
-!MESSAGE Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
-!STACK 0
-java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
-	at org.jkiss.dbeaver.erd.model.ERDUtils.getAttributeByModel(ERDUtils.java:109)
-	at org.jkiss.dbeaver.erd.model.ERDAssociation.resolveAttributes(ERDAssociation.java:104)
-	at org.jkiss.dbeaver.erd.model.ERDAssociation.<init>(ERDAssociation.java:84)
-	at org.jkiss.dbeaver.erd.ui.editor.ERDGraphicalViewer.lambda$1(ERDGraphicalViewer.java:402)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2346)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
-	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2344)
-	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.run(RunnableContextDelegate.java:39)
-	at org.jkiss.dbeaver.ui.UIUtils.runInProgressService(UIUtils.java:1798)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateBase.createDatabaseObject(NavigatorHandlerObjectCreateBase.java:186)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateBase.createNewObject(NavigatorHandlerObjectCreateBase.java:167)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateNew.execute(NavigatorHandlerObjectCreateNew.java:134)
-	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor78.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
-	at org.jkiss.dbeaver.ui.ActionUtils.runCommand(ActionUtils.java:374)
-	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateNew.execute(NavigatorHandlerObjectCreateNew.java:126)
-	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
-	at jdk.internal.reflect.GeneratedMethodAccessor78.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
-	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:280)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-10-13 16:26:54.981
-!MESSAGE Unhandled event loop exception
-!STACK 0
+2023-10-13 16:26:54.981 - Event loop exception
 java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
 	at org.jkiss.dbeaver.erd.model.ERDUtils.getAttributeByModel(ERDUtils.java:109)
 	at org.jkiss.dbeaver.erd.model.ERDAssociation.resolveAttributes(ERDAssociation.java:104)
@@ -1405,232 +908,36 @@ java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEn
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 16:26:54.982
-!MESSAGE Event loop exception
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 16:26:54.982
-!MESSAGE Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
-!STACK 0
-java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.erd.model.ERDEntity.getAttributes()" because "entity" is null
-	at org.jkiss.dbeaver.erd.model.ERDUtils.getAttributeByModel(ERDUtils.java:109)
-	at org.jkiss.dbeaver.erd.model.ERDAssociation.resolveAttributes(ERDAssociation.java:104)
-	at org.jkiss.dbeaver.erd.model.ERDAssociation.<init>(ERDAssociation.java:84)
-	at org.jkiss.dbeaver.erd.ui.editor.ERDGraphicalViewer.lambda$1(ERDGraphicalViewer.java:402)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:280)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 17:16:33.938
-!MESSAGE Error resolving object
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 17:16:33.938
-!MESSAGE Table 'movie' not found in catalog 'shop2'
-!STACK 0
+2023-10-13 17:10:51.562 - Execution context closed (localhost, 3)
+2023-10-13 17:11:16.469 - Execution context opened (localhost; SQLEditor <Script-1.sql>; 4)
+2023-10-13 17:16:33.934 - Error resolving object
 org.jkiss.dbeaver.DBException: Table 'movie' not found in catalog 'shop2'
 	at org.jkiss.dbeaver.ext.mysql.model.MySQLStructureAssistant$1.resolveObject(MySQLStructureAssistant.java:141)
 	at org.jkiss.dbeaver.ui.editors.sql.dialogs.SuggestionInformationControl$1.run(SuggestionInformationControl.java:130)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 17:18:17.484
-!MESSAGE Error resolving object
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 17:18:17.485
-!MESSAGE Table 'place' not found in catalog 'shop2'
-!STACK 0
+2023-10-13 17:18:17.483 - Error resolving object
 org.jkiss.dbeaver.DBException: Table 'place' not found in catalog 'shop2'
 	at org.jkiss.dbeaver.ext.mysql.model.MySQLStructureAssistant$1.resolveObject(MySQLStructureAssistant.java:141)
 	at org.jkiss.dbeaver.ui.editors.sql.dialogs.SuggestionInformationControl$1.run(SuggestionInformationControl.java:130)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 17:19:46.602
-!MESSAGE Error resolving object
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 17:19:46.602
-!MESSAGE Table 'movie' not found in catalog 'shop2'
-!STACK 0
+2023-10-13 17:19:46.601 - Error resolving object
 org.jkiss.dbeaver.DBException: Table 'movie' not found in catalog 'shop2'
 	at org.jkiss.dbeaver.ext.mysql.model.MySQLStructureAssistant$1.resolveObject(MySQLStructureAssistant.java:141)
 	at org.jkiss.dbeaver.ui.editors.sql.dialogs.SuggestionInformationControl$1.run(SuggestionInformationControl.java:130)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-!SESSION 2023-10-13 17:20:58.179 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=17.0.6
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -eclipse.keyring C:\Users\jaeyun\AppData\Roaming\DBeaverData\secure\secure_storage
-Command-line arguments:  -os win32 -ws win32 -arch x86_64
-
-!ENTRY org.eclipse.ui 2 2 2023-10-13 17:21:05.235
-!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
-
-!ENTRY org.eclipse.jface 2 0 2023-10-13 17:21:07.121
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-13 17:21:07.121
-!MESSAGE A conflict occurred for CTRL+J:
-Binding(CTRL+J,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.findIncremental,Ï¶ùÎ∂Ñ Ï∞æÍ∏∞,
-		Ï¶ùÎ∂ÑÏùÑ Ï∞æÏäµÎãàÎã§.,
-		Category(org.eclipse.ui.category.edit,Ìé∏Ïßë,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findIncremental"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.textEditorScope,,,system)
-Binding(CTRL+J,
-	ParameterizedCommand(Command(org.jkiss.dbeaver.core.resultset.grid.gotoColumn,Go To Column,
-		Jump to a specified column,
-		Category(org.jkiss.dbeaver.core.rs,Result Set,Result Set Commands,true),
-		WorkbenchHandlerServiceHandler("org.jkiss.dbeaver.core.resultset.grid.gotoColumn"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.jkiss.dbeaver.ui.context.resultset,,,system)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 17:21:34.810
-!MESSAGE SQL Error [1054] [42S22]: Unknown column 'm1' in 'where clause'
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 17:21:34.810
-!MESSAGE Unknown column 'm1' in 'where clause'
-!STACK 0
-java.sql.SQLSyntaxErrorException: Unknown column 'm1' in 'where clause'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 17:22:04.265
-!MESSAGE SQL Error [1054] [42S22]: Unknown column 'm1' in 'where clause'
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 17:22:04.265
-!MESSAGE Unknown column 'm1' in 'where clause'
-!STACK 0
-java.sql.SQLSyntaxErrorException: Unknown column 'm1' in 'where clause'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 17:22:26.595
-!MESSAGE SQL Error [1054] [42S22]: Unknown column 'm1' in 'where clause'
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 17:22:26.595
-!MESSAGE Unknown column 'm1' in 'where clause'
-!STACK 0
-java.sql.SQLSyntaxErrorException: Unknown column 'm1' in 'where clause'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.jkiss.dbeaver.model 4 0 2023-10-13 17:26:38.350
-!MESSAGE SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',place' at line 1
-!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2023-10-13 17:26:38.350
-!MESSAGE You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',place' at line 1
-!STACK 0
-java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',place' at line 1
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-!SESSION 2023-10-13 17:28:35.719 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=17.0.6
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -eclipse.keyring C:\Users\jaeyun\AppData\Roaming\DBeaverData\secure\secure_storage
-Command-line arguments:  -os win32 -ws win32 -arch x86_64
-
-!ENTRY org.eclipse.ui 2 2 2023-10-13 17:28:41.853
-!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
-
-!ENTRY org.eclipse.jface 2 0 2023-10-13 17:28:43.320
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-13 17:28:43.320
-!MESSAGE A conflict occurred for CTRL+J:
-Binding(CTRL+J,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.findIncremental,Ï¶ùÎ∂Ñ Ï∞æÍ∏∞,
-		Ï¶ùÎ∂ÑÏùÑ Ï∞æÏäµÎãàÎã§.,
-		Category(org.eclipse.ui.category.edit,Ìé∏Ïßë,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.findIncremental"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.textEditorScope,,,system)
-Binding(CTRL+J,
-	ParameterizedCommand(Command(org.jkiss.dbeaver.core.resultset.grid.gotoColumn,Go To Column,
-		Jump to a specified column,
-		Category(org.jkiss.dbeaver.core.rs,Result Set,Result Set Commands,true),
-		WorkbenchHandlerServiceHandler("org.jkiss.dbeaver.core.resultset.grid.gotoColumn"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.jkiss.dbeaver.ui.context.resultset,,,system)
+2023-10-13 17:19:48.921 - Table 'shop2.movie' not found in metadata catalog
+2023-10-13 17:19:48.921 - Table 'shop2.movie' not found in metadata catalog
+2023-10-13 17:19:48.921 - Table 'shop2.movie' not found in metadata catalog
+2023-10-13 17:19:48.921 - Table 'shop2.movie' not found in metadata catalog
+2023-10-13 17:19:56.305 - Table 'shop2.movie' not found in metadata catalog
+2023-10-13 17:19:56.306 - Table 'shop2.movie' not found in metadata catalog
+2023-10-13 17:19:56.306 - Table 'shop2.movie' not found in metadata catalog
+2023-10-13 17:19:56.306 - Table 'shop2.movie' not found in metadata catalog
+2023-10-13 17:20:18.425 - Can't get column 'password': Column 'password' not found.
+2023-10-13 17:20:56.376 - Execution context closed (localhost, 4)
+2023-10-13 17:20:56.675 - DBeaver is stopping
+2023-10-13 17:20:56.678 - Stop instance server
+2023-10-13 17:20:57.679 - DBeaver shutdown completed

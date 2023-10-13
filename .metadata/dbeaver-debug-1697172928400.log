@@ -1,0 +1,249 @@
+2023-10-13 11:20:57.959 - DBeaver 23.2.2.202310081633 is starting
+2023-10-13 11:20:57.960 - OS: Windows 11 10.0 (amd64)
+2023-10-13 11:20:57.960 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2023-10-13 11:20:57.960 - Install path: 'C:\Program Files\DBeaver'
+2023-10-13 11:20:57.960 - Instance path: 'file:/E:/sql_workspace/'
+2023-10-13 11:20:57.960 - Memory available 64Mb/1024Mb
+2023-10-13 11:20:57.972 - Create display
+> Start Eclipse IDE UI [org.eclipse.ui.ide 3.21.0.v20230526-1500]
+2023-10-13 11:20:58.113 - Initializing DBeaver 23.2.2
+2023-10-13 11:20:58.114 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 23.2.2.202310081633
+2023-10-13 11:20:58.114 - Initialize desktop platform...
+2023-10-13 11:20:58.287 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.0.v20230425-0513]
+> Start Core Resource Management [org.eclipse.core.resources 3.19.0.v20230510-1240]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.0.v20230317-0901]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.116.202310081633]
+2023-10-13 11:20:58.549 - 
+2023-10-13 11:20:58.549 - 	Refreshing workspace.
+2023-10-13 11:20:58.551 - Refreshing workspace contents
+2023-10-13 11:20:58.669 - Initialize base platform...
+2023-10-13 11:20:58.697 - Platform initialized (583ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.116.202310081633]
+2023-10-13 11:20:58.748 - Starting instance server at http://localhost:58411
+2023-10-13 11:20:58.755 - Run workbench
+> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.131.202310081633]
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.0.v20230501-1823]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.0.v20230429-1914]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.0.v20230501-1823]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.0.v20230501-1823]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.0.v20230501-1823]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.0.v20230501-1823]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.18.0.v20230211-1150]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.0.v20230501-1533]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.0.v20230501-1823]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.0.v20230525-0648]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.0.v20230429-1914]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.0.v20230317-0802]
+> Start jna [com.sun.jna 5.13.0]
+Warning: NLS unused message: BlockedJobsDialog_UserInterfaceTreeElement in: org.eclipse.ui.internal.progress.messages
+2023-10-13 11:21:00.790 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.106.202310081633]
+2023-10-13 11:21:00.953 - Total database drivers: 108 (108)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.0.v20230317-0802]
+2023-10-13 11:21:01.076 - Create actions
+2023-10-13 11:21:01.084 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2023-10-13 11:21:01.085 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2023-10-13 11:21:01.085 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2023-10-13 11:21:02.191 - Initialize workbench window
+2023-10-13 11:21:02.202 - Finish initialization
+Warning: NLS missing message: pref_page_content_editor_group_representation_content in: org.jkiss.dbeaver.ui.controls.resultset.internal.ResultSetMessages
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.116.202310081633]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.0.v20230317-0901]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.0.v20230317-0901]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.116.202310081633]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.13.0.202306071707]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.14.0.202306071707]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.76.202310081633]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.76.202310081633]
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.16.0.v20230329-1609]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.0.v20230316-1200]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.153.202310081633]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.122.202310081633]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.107.202310081633]
+2023-10-13 11:21:05.499 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.108.202310081633]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.9.202310081633]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.201.202310081633]
+2023-10-13 11:21:08.531 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2023-10-13 11:21:13.224 - Connect with 'jdbc:mysql://localhost:3306/' (mysql8-18b26d67e4f-a5fb3ca4d546595)
+2023-10-13 11:21:13.259 - Execution context opened (jdbc:mysql://localhost:3306/; Main; 0)
+2023-10-13 11:21:13.428 - Open [https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.pom]
+2023-10-13 11:21:14.110 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.pom]
+2023-10-13 11:21:14.285 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.19.4/protobuf-parent-3.19.4.pom]
+2023-10-13 11:21:14.467 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.19.4/protobuf-bom-3.19.4.pom]
+2023-10-13 11:21:16.173 - Open [https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.jar]
+2023-10-13 11:21:18.887 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar]
+2023-10-13 11:21:20.736 - Open [https://www.gnu.org/licenses/old-licenses/lgpl-2.0.txt]
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.140.202310081633]
+2023-10-13 11:21:22.073 - Connected (mysql8-18b26d67e4f-a5fb3ca4d546595, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+2023-10-13 11:21:22.129 - Execution context closed (jdbc:mysql://localhost:3306/, 0)
+2023-10-13 11:21:22.129 - Disconnected (mysql8-18b26d67e4f-a5fb3ca4d546595)
+2023-10-13 11:21:27.672 - Connect with 'jdbc:mysql://localhost:3306/' (mysql8-18b26d6b696-4f74de541042180f)
+2023-10-13 11:21:27.677 - Execution context opened (jdbc:mysql://localhost:3306/; Main; 1)
+2023-10-13 11:21:27.773 - Connected (mysql8-18b26d6b696-4f74de541042180f, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+2023-10-13 11:21:27.826 - Execution context closed (jdbc:mysql://localhost:3306/, 1)
+2023-10-13 11:21:27.828 - Disconnected (mysql8-18b26d6b696-4f74de541042180f)
+2023-10-13 11:21:34.166 - Connect with 'localhost' (mysql8-18b26d66b37-49f851385ee7b8c6)
+2023-10-13 11:21:34.166 - Execution context opened (localhost; Main; 2)
+2023-10-13 11:21:34.181 - Execution context opened (localhost; Metadata; 3)
+2023-10-13 11:21:34.263 - Connected (mysql8-18b26d66b37-49f851385ee7b8c6, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.0.v20230517-1315]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.92.202310081633]
+> Start 콘솔 [org.eclipse.ui.console 3.12.0.v20230317-0802]
+Warning: NLS unused message: InputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+Warning: NLS unused message: OutputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+> Start 디버그 핵심 [org.eclipse.debug.core 3.21.0.v20230508-1538]
+2023-10-13 11:22:00.189 - Execution context opened (localhost; SQLEditor <Script.sql>; 4)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.94.202310081633]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.94.202310081633]
+2023-10-13 11:29:15.005 - SQL Error [1136] [21S01]: Column count doesn't match value count at row 1
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1136] [21S01]: Column count doesn't match value count at row 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Column count doesn't match value count at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+2023-10-13 11:29:15.785 - SQL Error [1136] [21S01]: Column count doesn't match value count at row 1
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1136] [21S01]: Column count doesn't match value count at row 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Column count doesn't match value count at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+2023-10-13 11:29:16.955 - SQL Error [1136] [21S01]: Column count doesn't match value count at row 1
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1136] [21S01]: Column count doesn't match value count at row 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Column count doesn't match value count at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+2023-10-13 11:29:17.881 - SQL Error [1136] [21S01]: Column count doesn't match value count at row 1
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1136] [21S01]: Column count doesn't match value count at row 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Column count doesn't match value count at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+2023-10-13 11:29:35.790 - Error resolving object
+org.jkiss.dbeaver.DBException: Table 'product3' not found in catalog 'shop2'
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLStructureAssistant$1.resolveObject(MySQLStructureAssistant.java:141)
+	at org.jkiss.dbeaver.ui.editors.sql.dialogs.SuggestionInformationControl$1.run(SuggestionInformationControl.java:130)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-10-13 11:37:02.082 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+
+Error position:
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2023-10-13 13:22:57.535 - Execution context closed (localhost, 4)
+> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
+2023-10-13 13:54:20.101 - Execution context opened (localhost; SQLEditor <Script.sql>; 5)
+2023-10-13 13:54:49.808 - SQL Error [1049] [42000]: Unknown database 'leagueoflengeds'
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1049] [42000]: Unknown database 'leagueoflengeds'
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'leagueoflengeds'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2023-10-13 13:55:25.023 - Execution context closed (localhost, 5)
+2023-10-13 13:55:25.484 - DBeaver is stopping
+2023-10-13 13:55:25.486 - Stop instance server
+2023-10-13 13:55:26.486 - DBeaver shutdown completed

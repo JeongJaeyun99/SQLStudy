@@ -1,0 +1,20 @@
+use lol;
+
+insert into member values ('JUGKING','1234','challenger',60.0,1736,327),('BRO Hena','1235','challenger',56.0,1681,545),('Hide on bush','0000','challenger',55.0,996,411);
+
+insert into record values ('JUGKING','2023-10-12','VI','8/1/7',79.0),('JUGKING','2023-10-2','Nidalee','10/3/14',75.0),('JUGKING','2023-10-12','VI','8/1/7',79.0),('BRO Hena','2023-10-10','Sivir','8/2/7',56.0),('Hide on bush','2023-10-11','Sylas','4/0/2',38.0);
+
+select id from member where tier = 'challenger';
+
+select id from member where winrate >= 60;
+
+update record set killrate = 60.0 where id = 'Hide on bush';
+
+delete from record where days = '2023-10-2';
+
+use shop2;
+
+insert into hobby values ('100','run','seoul'),('200','book','busan');
+select * from hobby;
+select content from hobby;
+select location,content from hobby;

@@ -77,3 +77,4 @@ delete from product3 where price = 3000 or img = '4.png';
 delete from product3;
 select * from product3;
 
+use LeagueOfLengeds;

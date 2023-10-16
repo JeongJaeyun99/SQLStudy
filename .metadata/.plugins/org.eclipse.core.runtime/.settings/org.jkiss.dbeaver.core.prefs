@@ -1,6 +1,16 @@
+MySQL.export.addDropStatements=true
+MySQL.export.disableKeys=true
+MySQL.export.extendedInserts=true
+MySQL.export.method=NORMAL
+clientHomeName=C\:\\Program Files\\MySQL\\MySQL Server 8.0
+dataSource=mysql8-18b26d66b37-49f851385ee7b8c6
+dialog.default.folder=C\:\\Users\\jaeyun\\Downloads
 driver.selector.orderBy=score
 eclipse.preferences.version=1
+export.outputFilePattern=dump-${database}-${timestamp}.sql
+export.outputFolder=C\:\\Users\\jaeyun
+project=General
 sample.database.canceled=true
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1697163665497
+ui.auto.update.check.time=1697413391607
 ui.show.tip.of.the.day.on.startup=false

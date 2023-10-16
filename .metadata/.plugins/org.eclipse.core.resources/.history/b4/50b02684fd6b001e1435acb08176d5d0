@@ -65,18 +65,3 @@ select id from member;
 select tel,id from member;
 
 select tel, name from member where id = 'apple'; 
-
-insert into member values ('computer','1234','com',null);
-
-select * from member;
-
-insert into member values('ice2','1234','ice2','010',now());
-
-delete from bbs;
-
-select * from bbs;
-
-insert into bbs values (null,'db','fun db','apple');
-insert into bbs values (null,'db2','fun db2','apple2');
-insert into bbs values (null,'db3','fun db3','apple3');
-

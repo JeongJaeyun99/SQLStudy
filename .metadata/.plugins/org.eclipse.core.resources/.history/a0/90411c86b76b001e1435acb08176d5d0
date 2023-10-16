@@ -50,4 +50,3 @@ truncate table place;
 
 drop table movie;
 drop table place;
-

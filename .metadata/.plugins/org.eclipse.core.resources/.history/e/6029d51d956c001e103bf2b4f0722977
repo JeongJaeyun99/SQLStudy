@@ -1,0 +1,4 @@
+select *
+from product3 p 
+order by price desc;
+

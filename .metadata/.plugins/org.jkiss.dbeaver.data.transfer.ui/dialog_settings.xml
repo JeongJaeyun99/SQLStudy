@@ -16,7 +16,7 @@
 			<item key="selectedRowsOnly" value="false"/>
 		</section>
 		<section name="DatabaseTransferConsumer">
-			<item key="entityId" value="mysql8-18b26d66b37-49f851385ee7b8c6/shop"/>
+			<item key="entityId" value="mysql8-18b26d66b37-49f851385ee7b8c6/shop2"/>
 			<item key="openNewConnections" value="true"/>
 			<item key="useTransactions" value="true"/>
 			<item key="commitAfterRows" value="10000"/>
@@ -33,7 +33,7 @@
 			<item key="openTableOnFinish" value="true"/>
 			<section name="mappings">
 				<section name="product3.csv/product3.csv">
-					<item key="targetName" value="product"/>
+					<item key="targetName" value="product3"/>
 					<item key="mappingType" value="existing"/>
 					<section name="attributes">
 						<section name="id">
@@ -83,19 +83,6 @@
 			<item key="valueFormat" value="UI"/>
 		</section>
 		<section name="processors">
-			<section name="stream_consumer:stream.csv">
-				<item key="@propNames" value="quoteChar,rowDelimiter,extension,headerFormat,delimiter,header,formatNumbers,quoteAlways,quoteNever,escape,"/>
-				<item key="quoteChar" value="&quot;"/>
-				<item key="rowDelimiter" value="default"/>
-				<item key="extension" value="csv"/>
-				<item key="headerFormat" value="label"/>
-				<item key="delimiter" value=","/>
-				<item key="header" value="top"/>
-				<item key="formatNumbers" value="false"/>
-				<item key="quoteAlways" value="disabled"/>
-				<item key="quoteNever" value="false"/>
-				<item key="escape" value="quotes"/>
-			</section>
 			<section name="stream_producer:stream.csv">
 				<item key="@propNames" value="trimWhitespaces,escapeChar,quoteChar,extension,columnTypeMinimalLength,delimiter,columnTypeSamplesCount,header,timestampFormat,encoding,"/>
 				<item key="trimWhitespaces" value="false"/>
@@ -108,6 +95,19 @@
 				<item key="header" value="top"/>
 				<item key="timestampFormat" value="yyyy-MM-dd[ HH:mm:ss[.SSS]]"/>
 				<item key="encoding" value="utf-8"/>
+			</section>
+			<section name="stream_consumer:stream.csv">
+				<item key="@propNames" value="quoteChar,rowDelimiter,extension,headerFormat,delimiter,header,formatNumbers,quoteAlways,quoteNever,escape,"/>
+				<item key="quoteChar" value="&quot;"/>
+				<item key="rowDelimiter" value="default"/>
+				<item key="extension" value="csv"/>
+				<item key="headerFormat" value="label"/>
+				<item key="delimiter" value=","/>
+				<item key="header" value="top"/>
+				<item key="formatNumbers" value="false"/>
+				<item key="quoteAlways" value="disabled"/>
+				<item key="quoteNever" value="false"/>
+				<item key="escape" value="quotes"/>
 			</section>
 		</section>
 		<section name="StreamTransferProducer">

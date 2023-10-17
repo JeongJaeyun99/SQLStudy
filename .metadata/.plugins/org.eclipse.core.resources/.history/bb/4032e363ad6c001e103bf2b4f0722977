@@ -1,0 +1,3 @@
+use company;
+
+select length(ename) from emp;

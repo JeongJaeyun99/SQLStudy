@@ -15,5 +15,5 @@ inputFile=C\:\\Users\\jaeyun\\Downloads\\dump-shop-202310171711.sql
 project=General
 sample.database.canceled=true
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1697501035555
+ui.auto.update.check.time=1697779824945
 ui.show.tip.of.the.day.on.startup=false

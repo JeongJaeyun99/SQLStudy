@@ -16,7 +16,7 @@
 			<item key="selectedRowsOnly" value="false"/>
 		</section>
 		<section name="DatabaseTransferConsumer">
-			<item key="entityId" value="mysql8-18b26d66b37-49f851385ee7b8c6/shop2"/>
+			<item key="entityId" value="mysql8-18b26d66b37-49f851385ee7b8c6/normal"/>
 			<item key="openNewConnections" value="true"/>
 			<item key="useTransactions" value="true"/>
 			<item key="commitAfterRows" value="10000"/>
@@ -32,32 +32,40 @@
 			<item key="truncateBeforeLoad" value="false"/>
 			<item key="openTableOnFinish" value="true"/>
 			<section name="mappings">
-				<section name="product3.csv/product3.csv">
-					<item key="targetName" value="product3"/>
+				<section name="totalstudent_202310230955.csv/totalstudent_202310230955.csv">
+					<item key="targetName" value="totalstudent"/>
 					<item key="mappingType" value="existing"/>
 					<section name="attributes">
-						<section name="id">
-							<item key="targetName" value="id"/>
+						<section name="학생번호">
+							<item key="targetName" value="학생번호"/>
 							<item key="mappingType" value="existing"/>
 						</section>
-						<section name="name">
-							<item key="targetName" value="name"/>
+						<section name="학생이름">
+							<item key="targetName" value="학생이름"/>
 							<item key="mappingType" value="existing"/>
 						</section>
-						<section name="content">
-							<item key="targetName" value="content"/>
+						<section name="주소">
+							<item key="targetName" value="주소"/>
 							<item key="mappingType" value="existing"/>
 						</section>
-						<section name="price">
-							<item key="targetName" value="price"/>
+						<section name="학과">
+							<item key="targetName" value="학과"/>
 							<item key="mappingType" value="existing"/>
 						</section>
-						<section name="company">
-							<item key="targetName" value="company"/>
+						<section name="학과사무실">
+							<item key="targetName" value="학과사무실"/>
 							<item key="mappingType" value="existing"/>
 						</section>
-						<section name="img">
-							<item key="targetName" value="img"/>
+						<section name="강좌이름">
+							<item key="targetName" value="강좌이름"/>
+							<item key="mappingType" value="existing"/>
+						</section>
+						<section name="강의실">
+							<item key="targetName" value="강의실"/>
+							<item key="mappingType" value="existing"/>
+						</section>
+						<section name="성적">
+							<item key="targetName" value="성적"/>
 							<item key="mappingType" value="existing"/>
 						</section>
 					</section>

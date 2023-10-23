@@ -16,7 +16,5 @@ on (m.id = b.writer);
 
 use shop;
 
-select * from member;
 
-select * from member where id = 'apple'and pw = '1234';
-select count(id) from member where id = 'apple'and pw = '1234';
+

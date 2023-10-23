@@ -141,4 +141,3 @@ where p.강좌이름 in (
 );
 
 use normal3;
-

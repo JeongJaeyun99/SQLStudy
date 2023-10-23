@@ -112,33 +112,4 @@ from 학생 s
 inner join 성적정보 j on s.학생번호 =j.학생번호 
 inner join 강좌정보 c on j.강좌이름  = c.강좌이름 ;
 
-select *
-from 학생 s
-left join 성적정보 j
-on s.학생번호 = j.학생번호;
-
-select * from 학생 j
-where j.학생번호 = (
-	select s.학생번호 
-	from 성적정보 s
- 	where s.학생번호 = '502'
-);
-
-
-
-select j.학생번호 ,j.학생이름,j.학과  from 학생 j
-where j.학생번호 in (
-	select s.학생번호 
-	from 성적정보 s
-	where s.강좌이름 = '자료구조'
-);
-select p.강좌이름 ,p.학생번호 ,p.성적 
-from 성적정보 p
-where p.강좌이름 in (
-	select g.강좌이름 
-	from 강좌정보 g
-	where g.강의실 = '공학관110'
-);
-
-use normal3;
-
+select 

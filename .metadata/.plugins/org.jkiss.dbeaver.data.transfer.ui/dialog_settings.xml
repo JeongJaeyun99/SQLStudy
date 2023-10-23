@@ -16,7 +16,7 @@
 			<item key="selectedRowsOnly" value="false"/>
 		</section>
 		<section name="DatabaseTransferConsumer">
-			<item key="entityId" value="mysql8-18b26d66b37-49f851385ee7b8c6/normal"/>
+			<item key="entityId" value="mysql8-18b26d66b37-49f851385ee7b8c6/normal3"/>
 			<item key="openNewConnections" value="true"/>
 			<item key="useTransactions" value="true"/>
 			<item key="commitAfterRows" value="10000"/>
@@ -32,40 +32,24 @@
 			<item key="truncateBeforeLoad" value="false"/>
 			<item key="openTableOnFinish" value="true"/>
 			<section name="mappings">
-				<section name="totalstudent_202310230955.csv/totalstudent_202310230955.csv">
-					<item key="targetName" value="totalstudent"/>
+				<section name="_member__202310231643.csv/_member__202310231643.csv">
+					<item key="targetName" value="member"/>
 					<item key="mappingType" value="existing"/>
 					<section name="attributes">
-						<section name="학생번호">
-							<item key="targetName" value="학생번호"/>
+						<section name="id">
+							<item key="targetName" value="id"/>
 							<item key="mappingType" value="existing"/>
 						</section>
-						<section name="학생이름">
-							<item key="targetName" value="학생이름"/>
+						<section name="pw">
+							<item key="targetName" value="pw"/>
 							<item key="mappingType" value="existing"/>
 						</section>
-						<section name="주소">
-							<item key="targetName" value="주소"/>
+						<section name="name">
+							<item key="targetName" value="name"/>
 							<item key="mappingType" value="existing"/>
 						</section>
-						<section name="학과">
-							<item key="targetName" value="학과"/>
-							<item key="mappingType" value="existing"/>
-						</section>
-						<section name="학과사무실">
-							<item key="targetName" value="학과사무실"/>
-							<item key="mappingType" value="existing"/>
-						</section>
-						<section name="강좌이름">
-							<item key="targetName" value="강좌이름"/>
-							<item key="mappingType" value="existing"/>
-						</section>
-						<section name="강의실">
-							<item key="targetName" value="강의실"/>
-							<item key="mappingType" value="existing"/>
-						</section>
-						<section name="성적">
-							<item key="targetName" value="성적"/>
+						<section name="tel">
+							<item key="targetName" value="tel"/>
 							<item key="mappingType" value="existing"/>
 						</section>
 					</section>

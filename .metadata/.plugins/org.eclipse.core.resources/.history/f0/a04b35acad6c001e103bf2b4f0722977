@@ -1,9 +1,0 @@
-use company;
-
-select length(ename) 
-from emp;
-
-select length(ename) 
-from emp 
-where job = 'MANAGER';
-

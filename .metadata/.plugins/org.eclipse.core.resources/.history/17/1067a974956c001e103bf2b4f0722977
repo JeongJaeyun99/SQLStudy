@@ -1,8 +1,0 @@
-select *
-from product3 p 
-order by price desc; -- 1번
-
-select name,content,price
-from product3 p 
-order by company; -- 2번
-

@@ -1,6 +1,0 @@
-use shop4;
-
-select * 
-from `member` m ,bbs b
-where m.id = b.writer;
-

@@ -1,3 +1,0 @@
-select count(empno)
-from emp;
-

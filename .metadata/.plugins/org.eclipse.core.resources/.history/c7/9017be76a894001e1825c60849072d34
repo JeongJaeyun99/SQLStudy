@@ -1,0 +1,16 @@
+select * from bbs b;
+
+select id ,title,content
+from bbs b;
+
+select id, title,content
+from bbs
+order by id desc 
+limit 5
+
+select id, title,content
+from bbs
+where id between 100 and 110;
+
+select row_number() over(order by desc),
+id,title,content

@@ -1,6 +1,0 @@
-select count(*)
-from emp; -- 1번
-
-select count(empno)
-from emp
-where deptno = 20 and 

@@ -1,0 +1,1994 @@
+2023-11-18 19:36:41.642 - DBeaver 23.2.2.202310081633 is starting
+2023-11-18 19:36:41.642 - OS: Windows 11 10.0 (amd64)
+2023-11-18 19:36:41.642 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2023-11-18 19:36:41.642 - Install path: 'C:\Program Files\DBeaver'
+2023-11-18 19:36:41.643 - Instance path: 'file:/E:/sql_workspace/'
+2023-11-18 19:36:41.643 - Memory available 64Mb/1024Mb
+2023-11-18 19:36:41.649 - Create display
+2023-11-18 19:36:41.702 - Initializing DBeaver 23.2.2
+2023-11-18 19:36:41.702 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 23.2.2.202310081633
+2023-11-18 19:36:41.702 - Initialize desktop platform...
+2023-11-18 19:36:41.793 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.0.v20230425-0513]
+> Start Core Resource Management [org.eclipse.core.resources 3.19.0.v20230510-1240]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.0.v20230317-0901]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.116.202310081633]
+2023-11-18 19:36:41.913 - Initialize base platform...
+2023-11-18 19:36:41.925 - Platform initialized (223ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.116.202310081633]
+2023-11-18 19:36:41.955 - Starting instance server at http://localhost:54568
+2023-11-18 19:36:41.959 - Run workbench
+> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.131.202310081633]
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.0.v20230501-1823]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.0.v20230429-1914]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.0.v20230501-1823]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.0.v20230501-1823]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.0.v20230501-1823]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.0.v20230501-1823]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.18.0.v20230211-1150]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.0.v20230501-1533]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.0.v20230501-1823]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.0.v20230525-0648]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.0.v20230429-1914]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.0.v20230317-0802]
+Warning: NLS unused message: BlockedJobsDialog_UserInterfaceTreeElement in: org.eclipse.ui.internal.progress.messages
+2023-11-18 19:36:43.190 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.106.202310081633]
+2023-11-18 19:36:43.306 - Total database drivers: 108 (108)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.0.v20230317-0802]
+2023-11-18 19:36:43.350 - Create actions
+2023-11-18 19:36:43.353 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2023-11-18 19:36:43.353 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2023-11-18 19:36:43.354 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2023-11-18 19:36:43.622 - Initialize workbench window
+2023-11-18 19:36:43.626 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.16.0.v20230329-1609]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.0.v20230316-1200]
+Warning: NLS missing message: pref_page_content_editor_group_representation_content in: org.jkiss.dbeaver.ui.controls.resultset.internal.ResultSetMessages
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.116.202310081633]
+> Start jna [com.sun.jna 5.13.0]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.0.v20230317-0901]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.0.v20230317-0901]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.116.202310081633]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.153.202310081633]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.122.202310081633]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.13.0.202306071707]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.14.0.202306071707]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.76.202310081633]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.76.202310081633]
+2023-11-18 19:36:44.645 - Connect with 'localhost' (mysql8-18b26d66b37-49f851385ee7b8c6)
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.9.202310081633]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.201.202310081633]
+2023-11-18 19:36:44.676 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.140.202310081633]
+2023-11-18 19:36:44.812 - Execution context opened (localhost; Metadata; 1)
+2023-11-18 19:36:44.852 - Connected (mysql8-18b26d66b37-49f851385ee7b8c6, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.100.202310081633]
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.100.202310081633]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.94.202310081633]
+2023-11-18 19:40:40.986 - Execution context opened (흡연구역 데이터.csv; Main; 2)
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.107.202310081633]
+2023-11-18 19:40:57.188 - Execution context opened (localhost; Data transfer consumer; 3)
+2023-11-18 19:40:57.269 - Execution context closed (localhost, 3)
+> Start DBeaver Tasks - Native Tools [org.jkiss.dbeaver.tasks.native 1.0.94.202310081633]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.92.202310081633]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.0.v20230517-1315]
+> Start 콘솔 [org.eclipse.ui.console 3.12.0.v20230317-0802]
+Warning: NLS unused message: InputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+Warning: NLS unused message: OutputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+> Start 디버그 핵심 [org.eclipse.debug.core 3.21.0.v20230508-1538]
+2023-11-18 19:41:14.862 - Execution context opened (localhost; SQLEditor <Script-14.sql>; 4)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.94.202310081633]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.108.202310081633]
+2023-11-18 19:41:36.163 - SQL Error [1146] [42S02]: Table 'smoke.smoke' doesn't exist
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1146] [42S02]: Table 'smoke.smoke' doesn't exist
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'smoke.smoke' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+2023-11-18 19:42:08.548 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:498)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2023-11-18 19:42:18.517 - SQL Error [1146] [42S02]: Table 'smoke.smoke' doesn't exist
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1146] [42S02]: Table 'smoke.smoke' doesn't exist
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:582)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:491)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:501)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4093)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'smoke.smoke' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 11 more
+2023-11-18 19:42:59.847 - Execution context closed (localhost, 4)
+> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
+2023-11-18 19:45:09.600 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.605 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.606 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.607 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.608 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.609 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.610 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.612 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.613 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.614 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.615 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.616 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.619 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.620 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.626 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.627 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.628 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.630 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.633 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.634 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.635 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.637 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.639 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.640 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.641 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.643 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.644 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.646 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.647 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.648 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.650 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.651 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.652 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.654 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.655 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.656 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.658 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.660 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.661 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.662 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:45:09.664 - Can't parse numeric value [name
+리젠트오피스텔 후면
+리젠트오피스텔 좌측
+광진소방서 본관 1층 전면
+오렌지타워 건물 후면
+광진구 민방위 교육장 1층 마당
+테크노마트 9층 하늘마당 좌측
+테크노마트 9층 하늘마당 우측
+테크노마트 동측 주차장
+테크노마트 9층 하늘공원 우측
+새천년관 대공연장 좌측
+건국대학교 법학관 앞
+건국대학교 공학관
+세종대학교 충무관 앞
+세종대학교 집현관 좌측
+세종대학교 도서관 우측
+세종대학교 광개토관 우측
+세종대학교 학생회관
+세종대학교 애지헌 앞
+세종대학교 군자관 앞
+더클래식500 시설 중앙
+커먼그라운드 3층 좌측-1
+커먼그라운드 3층 우측
+SK네트웍스(주) 워커힐 수영장 좌측
+SK네트웍스(주) 워커힐 수영장 후면
+SK네트웍스(주) 워커힐 비스타 1층 
+SK네트웍스(주) 워커힐 주차장 전면
+정립회관수영장 북측 모통이
+정립회관수영장 서측 모퉁이
+웰츠타워 건물 좌측
+신도브래뉴오피스텔 후면
+한국보건의료인국가시험원 
+건국대학교 행정관 뒤
+건국대학교 학생회관 좌측
+건국대학교 인문관뒤
+건국대학교 신공학관
+건국대학교 수의과학관 뒤
+건국대학교 생명과학관 우측
+건국대학교 상허연구관
+건국대학교 상허도서관 입구
+건국대학교 경영관뒤
+] using formatter: Illegal embedded sign character
+2023-11-18 19:46:54.108 - Execution context opened (흡연구역 데이터.csv; Main; 5)
+2023-11-18 19:47:04.502 - Execution context opened (localhost; Data transfer consumer; 6)
+2023-11-18 19:47:04.564 - Execution context closed (localhost, 6)
+2023-11-18 19:50:51.118 - Execution context opened (smoke.csv; Main; 7)
+2023-11-18 19:51:13.899 - Execution context opened (localhost; Data transfer consumer; 8)
+2023-11-18 19:51:13.961 - Execution context closed (localhost, 8)
+2023-11-18 19:51:20.934 - No unique key defined
+org.jkiss.dbeaver.model.exec.DBCException: No unique key defined
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetPersister.checkEntityIdentifiers(ResultSetPersister.java:572)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer.createDataPersister(ResultSetViewer.java:4412)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer.saveChanges(ResultSetViewer.java:4324)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer.applyChanges(ResultSetViewer.java:4312)
+	at org.jkiss.dbeaver.ui.controls.resultset.handler.ResultSetHandlerMain.execute(ResultSetHandlerMain.java:320)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor81.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:655)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1286)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4865)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-11-18 19:52:55.195 - Execution context opened (smoke.csv; Main; 9)
+2023-11-18 19:53:46.259 - Execution context opened (localhost; Data transfer consumer; 10)
+2023-11-18 19:53:46.321 - Execution context closed (localhost, 10)
+2023-11-18 19:58:40.747 - Execution context opened (smoke.xml; Main; 11)
+2023-11-18 19:59:21.673 - Execution context opened (smoke.csv; Main; 12)
+2023-11-18 19:59:31.867 - Execution context opened (localhost; Data transfer consumer; 13)
+2023-11-18 19:59:31.929 - Execution context closed (localhost, 13)
+2023-11-18 19:59:46.016 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 19:59:46.017 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 19:59:46.018 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 19:59:46.018 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 19:59:46.018 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 20:04:43.771 - Execution context opened (smoke1.csv; Main; 14)
+2023-11-18 20:05:07.493 - Execution context opened (localhost; Data transfer consumer; 15)
+2023-11-18 20:05:07.554 - Execution context closed (localhost, 15)
+2023-11-18 20:07:14.829 - Execution context opened (smoke.csv; Main; 16)
+2023-11-18 20:07:31.087 - Execution context opened (localhost; Data transfer consumer; 17)
+2023-11-18 20:07:31.152 - Execution context closed (localhost, 17)
+2023-11-18 20:07:38.487 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 20:07:38.488 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 20:07:38.488 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 20:07:38.488 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 20:07:38.488 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 20:10:08.858 - Execution context opened (smoke.csv; Main; 18)
+2023-11-18 20:11:10.610 - Execution context opened (localhost; Data transfer consumer; 19)
+2023-11-18 20:11:10.671 - Execution context closed (localhost, 19)
+2023-11-18 20:11:16.133 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 20:11:16.133 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 20:11:16.134 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 20:11:16.134 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 20:11:16.135 - Can't parse numeric value [건국대학교 법학관 앞
+] using formatter: For input string: "건국대학"
+2023-11-18 20:14:23.550 - Execution context opened (smoke2.csv; Main; 20)
+2023-11-18 20:14:31.720 - Execution context opened (localhost; Data transfer consumer; 21)
+2023-11-18 20:14:31.779 - Execution context closed (localhost, 21)
+2023-11-18 20:22:31.642 - System suspend detected! Reinitialize all remote connections.
+2023-11-18 20:22:38.133 - DBeaver is stopping
+2023-11-18 20:22:38.134 - Stop instance server
+2023-11-18 20:22:39.135 - DBeaver shutdown completed

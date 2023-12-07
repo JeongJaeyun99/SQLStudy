@@ -1,7 +1,0 @@
-use shop2; 
-
-select * from product3 p 
-order by price desc; -- 1번
-
-
-

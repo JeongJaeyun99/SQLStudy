@@ -47,11 +47,3 @@ values ('서울', 37.5665, 126.9780),
        ('제주', 33.3796, 126.5282); 
        
       delete from smoke
-      
-CREATE TABLE `bbs` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `title` varchar(100) DEFAULT NULL,
-  `content` varchar(100) DEFAULT NULL,
-  `writer` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-); 

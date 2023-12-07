@@ -8302,3 +8302,15 @@ java.sql.SQLSyntaxErrorException: Table 'shop5.b2' doesn't exist
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-12-07 15:05:06.746
+!MESSAGE An internal error occurred during: "Database notifications".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1278)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:774)
+	at org.jkiss.dbeaver.ui.notifications.DatabaseNotificationSink$1.run(DatabaseNotificationSink.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
